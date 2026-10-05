@@ -4,7 +4,7 @@ __d(function(g,r,i,a,m,_e,d){"use strict";function e(e){return e&&e.__esModule?e
 __d(function(g,r,i,a,m,_e,d){"use strict";function e(e){return e&&e.__esModule?e:{default:e}}Object.defineProperty(_e,'__esModule',{value:!0}),_e.BrandStatus=function({palette:e,appearance:l}){const h=t.typographyTreatments.manrope.roles,j=(0,f.textStyle)(h.micro,e.text.tertiary),k=(0,f.textStyle)(h.body,e.text.primary),b=(0,f.textStyle)(h.meta,e.text.secondary);return(0,y.jsxs)(s.default,{testID:"brand-status",style:[x.root,{backgroundColor:e.background.canvas}],children:[(0,y.jsx)(o.default,{accessibilityRole:"header",style:(0,f.textStyle)(h.title,e.text.primary),children:"Brand asset status"}),(0,y.jsx)(o.default,{style:b,children:"No authentic vector or source file exists in the repository, its history, or the deployment repository (searched for D00-A4). Official files are specified in docs/build-gates/d00-a4/BRAND_ASSET_SPEC.md."}),p.map(t=>(0,y.jsxs)(s.default,{style:[x.card,{backgroundColor:e.background.surface}],children:[(0,y.jsx)(o.default,{style:(0,f.textStyle)(h.section,e.text.primary),children:t.name}),(0,y.jsxs)(s.default,{style:x.row,children:[(0,y.jsx)(o.default,{style:[j,x.tag],children:"Production"}),(0,y.jsx)(o.default,{style:[k,x.flex],children:"MISSING VECTOR \u2014 development placeholder"})]}),(0,y.jsx)(s.default,{style:[x.sample,{backgroundColor:e.background.canvas}],children:(0,y.jsx)(u.BrandPlaceholder,{kind:t.kind,height:32,palette:e})}),(0,y.jsx)(o.default,{style:b,children:u.PLACEHOLDER_LABEL}),(0,y.jsxs)(s.default,{style:x.row,children:[(0,y.jsx)(o.default,{style:[j,x.tag],children:"Reference"}),(0,y.jsx)(o.default,{style:[k,x.flex],children:"EXPLORATION ONLY \u2014 not a production asset"})]}),(0,y.jsx)(s.default,{style:[x.sample,{backgroundColor:e.background.canvas}],children:(0,y.jsx)(n.default,{source:c.referenceCrops[l][t.kind],accessibilityLabel:`${t.name}, raster reference crop, exploration only`,style:{height:32,width:32*t.ratio},resizeMode:"contain"})}),(0,y.jsxs)(o.default,{style:b,children:[t.reference,". Luminance-keyed, not traced, not vectorized, never enlarged. Archived evidence; must not advance to D00-B."]})]},t.kind))]})};var t=r(d[0]),n=e(r(d[1])),l=e(r(d[2])),o=e(r(d[3])),s=e(r(d[4])),c=r(d[5]),u=r(d[6]),f=r(d[7]),y=r(d[8]);const p=[{kind:"wordmark",name:"KPADA wordmark",ratio:c.WORDMARK_RATIO,reference:"Raster crop, 679 \xd7 110, Board 1 (v3.2) top lockup"},{kind:"flux",name:"Flux Minimal \xb7 option 02",ratio:c.FLUX_MINIMAL_RATIO,reference:"Raster crop, 92 \xd7 67, Board 1 app-icon option 02"}];const x=l.default.create({root:{padding:16,gap:12},card:{borderRadius:12,padding:16,gap:10},row:{flexDirection:"row",alignItems:"center",gap:10},tag:{width:104},flex:{flex:1},sample:{borderRadius:8,minHeight:64,alignItems:"center",justifyContent:"center"}})},1080,[1077,326,146,133,273,1194,1199,1200,6]);
 __d(function(g,r,i,a,m,_e,d){"use strict";Object.defineProperty(_e,'__esModule',{value:!0}),Object.defineProperty(_e,"__iconData",{enumerable:!0,get:function(){return o}}),Object.defineProperty(_e,"default",{enumerable:!0,get:function(){return u}});var e,t=r(d[0]),n=(e=t)&&e.__esModule?e:{default:e};
 /**
-   * @license lucide-react-native v1.50.0 - ISC
+   * @license lucide-react-native v1.52.0 - ISC
    *
    * This source code is licensed under the ISC license.
    * See the LICENSE file in the root directory of this source tree.
@@ -12,7 +12,7 @@ __d(function(g,r,i,a,m,_e,d){"use strict";Object.defineProperty(_e,'__esModule',
 const o={name:"arrow-left",size:24,node:[["path",{d:"m12 19-7-7 7-7",key:"1l729n"}],["path",{d:"M19 12H5",key:"x3x0zl"}]]};o.node;const u=(0,n.default)(o)},1084,[1095]);
 __d(function(g,r,i,a,m,_e,d){"use strict";Object.defineProperty(_e,'__esModule',{value:!0}),Object.defineProperty(_e,"__iconData",{enumerable:!0,get:function(){return o}}),Object.defineProperty(_e,"default",{enumerable:!0,get:function(){return u}});var e,t=r(d[0]),n=(e=t)&&e.__esModule?e:{default:e};
 /**
-   * @license lucide-react-native v1.50.0 - ISC
+   * @license lucide-react-native v1.52.0 - ISC
    *
    * This source code is licensed under the ISC license.
    * See the LICENSE file in the root directory of this source tree.
@@ -20,7 +20,7 @@ __d(function(g,r,i,a,m,_e,d){"use strict";Object.defineProperty(_e,'__esModule',
 const o={name:"arrow-left-right",size:24,node:[["path",{d:"M8 3 4 7l4 4",key:"9rb6wj"}],["path",{d:"M4 7h16",key:"6tx8e3"}],["path",{d:"m16 21 4-4-4-4",key:"siv7j2"}],["path",{d:"M20 17H4",key:"h6l3hr"}]]};o.node;const u=(0,n.default)(o)},1085,[1095]);
 __d(function(g,r,i,a,m,_e,d){"use strict";Object.defineProperty(_e,'__esModule',{value:!0}),Object.defineProperty(_e,"__iconData",{enumerable:!0,get:function(){return u}}),Object.defineProperty(_e,"default",{enumerable:!0,get:function(){return c}});var e,t=r(d[0]),n=(e=t)&&e.__esModule?e:{default:e};
 /**
-   * @license lucide-react-native v1.50.0 - ISC
+   * @license lucide-react-native v1.52.0 - ISC
    *
    * This source code is licensed under the ISC license.
    * See the LICENSE file in the root directory of this source tree.
@@ -28,7 +28,7 @@ __d(function(g,r,i,a,m,_e,d){"use strict";Object.defineProperty(_e,'__esModule',
 const u={name:"check",size:24,node:[["path",{d:"M20 6 9 17l-5-5",key:"1gmf2c"}]]};u.node;const c=(0,n.default)(u)},1086,[1095]);
 __d(function(g,r,i,a,m,_e,d){"use strict";Object.defineProperty(_e,'__esModule',{value:!0}),Object.defineProperty(_e,"__iconData",{enumerable:!0,get:function(){return o}}),Object.defineProperty(_e,"default",{enumerable:!0,get:function(){return u}});var e,t=r(d[0]),n=(e=t)&&e.__esModule?e:{default:e};
 /**
-   * @license lucide-react-native v1.50.0 - ISC
+   * @license lucide-react-native v1.52.0 - ISC
    *
    * This source code is licensed under the ISC license.
    * See the LICENSE file in the root directory of this source tree.
@@ -36,7 +36,7 @@ __d(function(g,r,i,a,m,_e,d){"use strict";Object.defineProperty(_e,'__esModule',
 const o={name:"chevron-right",size:24,node:[["path",{d:"m9 18 6-6-6-6",key:"mthhwq"}]]};o.node;const u=(0,n.default)(o)},1087,[1095]);
 __d(function(g,r,i,a,m,_e,d){"use strict";Object.defineProperty(_e,'__esModule',{value:!0}),Object.defineProperty(_e,"__iconData",{enumerable:!0,get:function(){return o}}),Object.defineProperty(_e,"default",{enumerable:!0,get:function(){return u}});var e,t=r(d[0]),n=(e=t)&&e.__esModule?e:{default:e};
 /**
-   * @license lucide-react-native v1.50.0 - ISC
+   * @license lucide-react-native v1.52.0 - ISC
    *
    * This source code is licensed under the ISC license.
    * See the LICENSE file in the root directory of this source tree.
@@ -44,7 +44,7 @@ __d(function(g,r,i,a,m,_e,d){"use strict";Object.defineProperty(_e,'__esModule',
 const o={name:"info",size:24,node:[["circle",{cx:"12",cy:"12",r:"10",key:"1mglay"}],["path",{d:"M12 16v-4",key:"1dtifu"}],["path",{d:"M12 8h.01",key:"e9boi3"}]]};o.node;const u=(0,n.default)(o)},1088,[1095]);
 __d(function(g,r,i,a,m,_e,d){"use strict";Object.defineProperty(_e,'__esModule',{value:!0}),Object.defineProperty(_e,"__iconData",{enumerable:!0,get:function(){return u}}),Object.defineProperty(_e,"default",{enumerable:!0,get:function(){return o}});var e,t=r(d[0]),n=(e=t)&&e.__esModule?e:{default:e};
 /**
-   * @license lucide-react-native v1.50.0 - ISC
+   * @license lucide-react-native v1.52.0 - ISC
    *
    * This source code is licensed under the ISC license.
    * See the LICENSE file in the root directory of this source tree.
@@ -52,7 +52,7 @@ __d(function(g,r,i,a,m,_e,d){"use strict";Object.defineProperty(_e,'__esModule',
 const u={name:"minus",size:24,node:[["path",{d:"M5 12h14",key:"1ays0h"}]]};u.node;const o=(0,n.default)(u)},1089,[1095]);
 __d(function(g,r,i,a,m,_e,d){"use strict";Object.defineProperty(_e,'__esModule',{value:!0}),Object.defineProperty(_e,"__iconData",{enumerable:!0,get:function(){return u}}),Object.defineProperty(_e,"default",{enumerable:!0,get:function(){return o}});var e,t=r(d[0]),n=(e=t)&&e.__esModule?e:{default:e};
 /**
-   * @license lucide-react-native v1.50.0 - ISC
+   * @license lucide-react-native v1.52.0 - ISC
    *
    * This source code is licensed under the ISC license.
    * See the LICENSE file in the root directory of this source tree.
@@ -60,7 +60,7 @@ __d(function(g,r,i,a,m,_e,d){"use strict";Object.defineProperty(_e,'__esModule',
 const u={name:"pencil",size:24,node:[["path",{d:"M21.174 6.812a1 1 0 0 0-3.986-3.987L3.842 16.174a2 2 0 0 0-.5.83l-1.321 4.352a.5.5 0 0 0 .623.622l4.353-1.32a2 2 0 0 0 .83-.497z",key:"1a8usu"}],["path",{d:"m15 5 4 4",key:"1mk7zo"}]]};u.node;const o=(0,n.default)(u)},1090,[1095]);
 __d(function(g,r,i,a,m,_e,d){"use strict";Object.defineProperty(_e,'__esModule',{value:!0}),Object.defineProperty(_e,"__iconData",{enumerable:!0,get:function(){return u}}),Object.defineProperty(_e,"default",{enumerable:!0,get:function(){return o}});var e,t=r(d[0]),n=(e=t)&&e.__esModule?e:{default:e};
 /**
-   * @license lucide-react-native v1.50.0 - ISC
+   * @license lucide-react-native v1.52.0 - ISC
    *
    * This source code is licensed under the ISC license.
    * See the LICENSE file in the root directory of this source tree.
@@ -68,7 +68,7 @@ __d(function(g,r,i,a,m,_e,d){"use strict";Object.defineProperty(_e,'__esModule',
 const u={name:"plus",size:24,node:[["path",{d:"M5 12h14",key:"1ays0h"}],["path",{d:"M12 5v14",key:"s699le"}]]};u.node;const o=(0,n.default)(u)},1091,[1095]);
 __d(function(g,r,i,a,m,_e,d){"use strict";Object.defineProperty(_e,'__esModule',{value:!0}),Object.defineProperty(_e,"__iconData",{enumerable:!0,get:function(){return c}}),Object.defineProperty(_e,"default",{enumerable:!0,get:function(){return u}});var e,t=r(d[0]),n=(e=t)&&e.__esModule?e:{default:e};
 /**
-   * @license lucide-react-native v1.50.0 - ISC
+   * @license lucide-react-native v1.52.0 - ISC
    *
    * This source code is licensed under the ISC license.
    * See the LICENSE file in the root directory of this source tree.
@@ -76,7 +76,7 @@ __d(function(g,r,i,a,m,_e,d){"use strict";Object.defineProperty(_e,'__esModule',
 const c={name:"search",size:24,node:[["path",{d:"m21 21-4.34-4.34",key:"14j7rj"}],["circle",{cx:"11",cy:"11",r:"8",key:"4ej97u"}]]};c.node;const u=(0,n.default)(c)},1092,[1095]);
 __d(function(g,r,i,a,m,_e,d){"use strict";Object.defineProperty(_e,'__esModule',{value:!0}),Object.defineProperty(_e,"__iconData",{enumerable:!0,get:function(){return u}}),Object.defineProperty(_e,"default",{enumerable:!0,get:function(){return c}});var e,t=r(d[0]),n=(e=t)&&e.__esModule?e:{default:e};
 /**
-   * @license lucide-react-native v1.50.0 - ISC
+   * @license lucide-react-native v1.52.0 - ISC
    *
    * This source code is licensed under the ISC license.
    * See the LICENSE file in the root directory of this source tree.
@@ -84,7 +84,7 @@ __d(function(g,r,i,a,m,_e,d){"use strict";Object.defineProperty(_e,'__esModule',
 const u={name:"timer",size:24,node:[["line",{x1:"10",x2:"14",y1:"2",y2:"2",key:"14vaq8"}],["line",{x1:"12",x2:"15",y1:"14",y2:"11",key:"17fdiu"}],["circle",{cx:"12",cy:"14",r:"8",key:"1e1u0o"}]]};u.node;const c=(0,n.default)(u)},1093,[1095]);
 __d(function(g,r,i,a,m,_e,d){"use strict";Object.defineProperty(_e,'__esModule',{value:!0}),Object.defineProperty(_e,"__iconData",{enumerable:!0,get:function(){return u}}),Object.defineProperty(_e,"default",{enumerable:!0,get:function(){return o}});var e,t=r(d[0]),n=(e=t)&&e.__esModule?e:{default:e};
 /**
-   * @license lucide-react-native v1.50.0 - ISC
+   * @license lucide-react-native v1.52.0 - ISC
    *
    * This source code is licensed under the ISC license.
    * See the LICENSE file in the root directory of this source tree.
@@ -92,7 +92,7 @@ __d(function(g,r,i,a,m,_e,d){"use strict";Object.defineProperty(_e,'__esModule',
 const u={name:"x",size:24,node:[["path",{d:"M18 6 6 18",key:"1bl5f8"}],["path",{d:"m6 6 12 12",key:"d8bk6v"}]]};u.node;const o=(0,n.default)(u)},1094,[1095]);
 __d(function(g,r,i,a,m,_e,d){"use strict";Object.defineProperty(_e,'__esModule',{value:!0}),Object.defineProperty(_e,"default",{enumerable:!0,get:function(){return f}});var e,t=r(d[0]),n=r(d[1]),o=r(d[2]),u=r(d[3]),c=(e=u)&&e.__esModule?e:{default:e};
 /**
-   * @license lucide-react-native v1.50.0 - ISC
+   * @license lucide-react-native v1.52.0 - ISC
    *
    * This source code is licensed under the ISC license.
    * See the LICENSE file in the root directory of this source tree.
@@ -131,14 +131,14 @@ __d(function(g,r,i,a,m,e,d){"use strict";Object.defineProperty(e,'__esModule',{v
 __d(function(g,r,i,a,m,e,d){"use strict";Object.defineProperty(e,'__esModule',{value:!0}),Object.defineProperty(e,"useFonts",{enumerable:!0,get:function(){return o}});var t=r(d[0]),n=r(d[1]);function u(t){return'string'==typeof t?(0,n.isLoaded)(t):Object.keys(t).every(t=>(0,n.isLoaded)(t))}const o='undefined'==typeof window?function(t){return(0,n.loadAsync)(t),[!0,null]}:function(o){const[c,s]=(0,t.useState)(u(o)),[f,l]=(0,t.useState)(null);return(0,t.useEffect)(()=>{let t=!0;return(0,n.loadAsync)(o).then(()=>{t&&s(!0)}).catch(n=>{t&&l(n)}),()=>{t=!1}},[]),[c,f]}},1126,[33,1105]);
 __d(function(g,r,i,a,m,e,d){"use strict";Object.defineProperty(e,'__esModule',{value:!0}),Object.defineProperty(e,"toLucideIconData",{enumerable:!0,get:function(){return t}});var n=r(d[0]);
 /**
-   * @license lucide-react-native v1.50.0 - ISC
+   * @license lucide-react-native v1.52.0 - ISC
    *
    * This source code is licensed under the ISC license.
    * See the LICENSE file in the root directory of this source tree.
    */function t(t,o,u=[]){if(null==o)throw new Error("[lucide]: iconNode is required when icon name is used");return Object.assign({name:(0,n.toKebabCase)(t),size:24,node:o},u.length>0?{aliases:u}:{})}},1127,[1128]);
 __d(function(g,r,i,a,m,e,d){"use strict";Object.defineProperty(e,'__esModule',{value:!0}),Object.defineProperty(e,"toKebabCase",{enumerable:!0,get:function(){return t}});
 /**
-   * @license lucide-react-native v1.50.0 - ISC
+   * @license lucide-react-native v1.52.0 - ISC
    *
    * This source code is licensed under the ISC license.
    * See the LICENSE file in the root directory of this source tree.
@@ -146,14 +146,14 @@ __d(function(g,r,i,a,m,e,d){"use strict";Object.defineProperty(e,'__esModule',{v
 const t=t=>t?.replace(/([a-z0-9])([A-Z])/g,"$1-$2").toLowerCase()},1128,[]);
 __d(function(g,r,i,a,m,e,d){"use strict";Object.defineProperty(e,'__esModule',{value:!0}),Object.defineProperty(e,"toPascalCase",{enumerable:!0,get:function(){return n}});var t=r(d[0]);
 /**
-   * @license lucide-react-native v1.50.0 - ISC
+   * @license lucide-react-native v1.52.0 - ISC
    *
    * This source code is licensed under the ISC license.
    * See the LICENSE file in the root directory of this source tree.
    */const n=n=>{const c=(0,t.toCamelCase)(n);return c.charAt(0).toUpperCase()+c.slice(1)}},1129,[1130]);
 __d(function(g,r,i,a,m,e,d){"use strict";Object.defineProperty(e,'__esModule',{value:!0}),Object.defineProperty(e,"toCamelCase",{enumerable:!0,get:function(){return t}});
 /**
-   * @license lucide-react-native v1.50.0 - ISC
+   * @license lucide-react-native v1.52.0 - ISC
    *
    * This source code is licensed under the ISC license.
    * See the LICENSE file in the root directory of this source tree.
@@ -161,11 +161,11 @@ __d(function(g,r,i,a,m,e,d){"use strict";Object.defineProperty(e,'__esModule',{v
 const t=t=>{let n="",o=!1;for(const s of t)"-"===s||"_"===s||s<=" "?o=n.length>0:(0===n.length?n+=s.toLowerCase():n+=o?s.toUpperCase():s,o=!1);return n}},1130,[]);
 __d(function(g,r,i,a,m,_e,_d){"use strict";const e=["color","size","width","height","strokeWidth","absoluteStrokeWidth","nonScalingStroke","children","iconNode","icon","className","testID"];
 /**
-   * @license lucide-react-native v1.50.0 - ISC
+   * @license lucide-react-native v1.52.0 - ISC
    *
    * This source code is licensed under the ISC license.
    * See the LICENSE file in the root directory of this source tree.
-   */function t(e){return e&&e.__esModule?e:{default:e}}Object.defineProperty(_e,'__esModule',{value:!0}),Object.defineProperty(_e,"default",{enumerable:!0,get:function(){return k}});var o=t(r(_d[0])),s=r(_d[1]),n=(function(e){if(e&&e.__esModule)return e;var t={};return e&&Object.keys(e).forEach(function(o){var s=Object.getOwnPropertyDescriptor(e,o);Object.defineProperty(t,o,s.get?s:{enumerable:!0,get:function(){return e[o]}})}),t.default=e,t})(r(_d[2])),c=r(_d[3]),l=t(r(_d[4])),d=r(_d[5]),u=r(_d[6]),h=r(_d[7]);const f=e=>"class"===e?"className":e.startsWith("data-")||e.startsWith("aria-")?e:e.replace(/-([a-z])/g,(e,t)=>t.toUpperCase()),b=e=>Object.entries(e).reduce((e,[t,o])=>(void 0===o||(e[f(t)]=o),e),{}),k=(0,s.forwardRef)((t,f)=>{let{color:k,size:p,width:S=p,height:W=p,strokeWidth:O,absoluteStrokeWidth:j,nonScalingStroke:y,children:_,iconNode:N=[],icon:v={node:N,size:24},className:A,testID:P}=t,w=(0,o.default)(t,e);const{size:z=24,strokeWidth:C=2,absoluteStrokeWidth:D=!1,nonScalingStroke:E=!1,color:I="currentColor",className:M=""}=(0,h.useLucideContext)()??{},U=Boolean(_)||(0,d.hasA11yProp)(w),[,x,B=[]]=(0,l.default)(v,{color:k??I,width:S??p??z,height:W??p??z,strokeWidth:O??C,absoluteStrokeWidth:j??D,nonScalingStroke:y??E,className:(0,c.mergeClasses)(M,A),hasA11yProp:U,attributes:w}),L=Object.assign({stroke:x.stroke,strokeWidth:x.strokeWidth},w);return(0,s.createElement)(n.Svg,Object.assign({ref:f},b(x),{testID:P},w),[...B.map(([e,t])=>{const o=e.charAt(0).toUpperCase()+e.slice(1);return(0,s.createElement)(n[o],b(Object.assign({},u.childDefaultAttributes,L,t)))}),...(Array.isArray(_)?_:[_])||[]])})},1131,[19,33,1132,1156,1157,1160,1161,1163]);
+   */function t(e){return e&&e.__esModule?e:{default:e}}Object.defineProperty(_e,'__esModule',{value:!0}),Object.defineProperty(_e,"default",{enumerable:!0,get:function(){return b}});var o=t(r(_d[0])),s=r(_d[1]),n=(function(e){if(e&&e.__esModule)return e;var t={};return e&&Object.keys(e).forEach(function(o){var s=Object.getOwnPropertyDescriptor(e,o);Object.defineProperty(t,o,s.get?s:{enumerable:!0,get:function(){return e[o]}})}),t.default=e,t})(r(_d[2])),c=r(_d[3]),l=t(r(_d[4])),d=r(_d[5]),u=r(_d[6]),h=r(_d[7]);const f=e=>"class"===e?"className":e.startsWith("data-")||e.startsWith("aria-")?e:e.replace(/-([a-z])/g,(e,t)=>t.toUpperCase()),k=e=>Object.entries(e).reduce((e,[t,o])=>(void 0===o||(e[f(t)]=o),e),{}),b=(0,s.forwardRef)((t,f)=>{let{color:b,size:p,width:S=p,height:W=p,strokeWidth:j,absoluteStrokeWidth:y,nonScalingStroke:O,children:_,iconNode:N=[],icon:v={node:N,size:24},className:A,testID:P}=t,w=(0,o.default)(t,e);const{size:z=24,strokeWidth:C=2,absoluteStrokeWidth:D=!1,nonScalingStroke:L=!1,color:E="currentColor",className:I=""}=(0,h.useLucideContext)()??{},M=Boolean(_)||(0,d.hasA11yProp)(w),[,U,x=[]]=(0,l.default)(v,{color:b??E,width:S??p??z,height:W??p??z,strokeWidth:j??C,absoluteStrokeWidth:y??D,nonScalingStroke:O??L,className:(0,c.mergeClasses)(I,A),hasA11yProp:M,attributes:w}),B={fill:U.fill,stroke:U.stroke,strokeWidth:U.strokeWidth,strokeLinecap:U.strokeLinecap,strokeLinejoin:U.strokeLinejoin};return(0,s.createElement)(n.Svg,Object.assign({ref:f},k(U),{testID:P},w),[...x.map(([e,t])=>{const o=e.charAt(0).toUpperCase()+e.slice(1);return(0,s.createElement)(n[o],k(Object.assign({},u.childDefaultAttributes,B,t)))}),...(Array.isArray(_)?_:[_])||[]])})},1131,[19,33,1132,1156,1157,1160,1161,1163]);
 __d(function(g,r,i,a,m,_e,d){"use strict";Object.defineProperty(_e,'__esModule',{value:!0}),Object.defineProperty(_e,"default",{enumerable:!0,get:function(){return n.default}});var e=r(d[0]);Object.keys(e).forEach(function(t){'default'===t||Object.prototype.hasOwnProperty.call(_e,t)||Object.defineProperty(_e,t,{enumerable:!0,get:function(){return e[t]}})});var t,n=(t=e)&&t.__esModule?t:{default:t}},1132,[1133]);
 __d(function(g,r,i,a,m,_e,d){"use strict";Object.defineProperty(_e,'__esModule',{value:!0}),Object.defineProperty(_e,"inlineStyles",{enumerable:!0,get:function(){return n.inlineStyles}}),Object.defineProperty(_e,"loadLocalRawResource",{enumerable:!0,get:function(){return n.loadLocalRawResource}}),Object.defineProperty(_e,"LocalSvg",{enumerable:!0,get:function(){return n.LocalSvg}}),Object.defineProperty(_e,"SvgCss",{enumerable:!0,get:function(){return n.SvgCss}}),Object.defineProperty(_e,"SvgCssUri",{enumerable:!0,get:function(){return n.SvgCssUri}}),Object.defineProperty(_e,"SvgWithCss",{enumerable:!0,get:function(){return n.SvgWithCss}}),Object.defineProperty(_e,"SvgWithCssUri",{enumerable:!0,get:function(){return n.SvgWithCssUri}}),Object.defineProperty(_e,"WithLocalSvg",{enumerable:!0,get:function(){return n.WithLocalSvg}}),Object.defineProperty(_e,"default",{enumerable:!0,get:function(){return f.default}}),Object.defineProperty(_e,"camelCase",{enumerable:!0,get:function(){return e.camelCase}}),Object.defineProperty(_e,"fetchText",{enumerable:!0,get:function(){return t.fetchText}}),Object.defineProperty(_e,"parse",{enumerable:!0,get:function(){return e.parse}}),Object.defineProperty(_e,"SvgAst",{enumerable:!0,get:function(){return e.SvgAst}}),Object.defineProperty(_e,"SvgFromUri",{enumerable:!0,get:function(){return e.SvgFromUri}}),Object.defineProperty(_e,"SvgFromXml",{enumerable:!0,get:function(){return e.SvgFromXml}}),Object.defineProperty(_e,"SvgUri",{enumerable:!0,get:function(){return e.SvgUri}}),Object.defineProperty(_e,"SvgXml",{enumerable:!0,get:function(){return e.SvgXml}});var e=r(d[0]),t=r(d[1]),n=r(d[2]),u=r(d[3]);Object.keys(u).forEach(function(e){'default'===e||Object.prototype.hasOwnProperty.call(_e,e)||Object.defineProperty(_e,e,{enumerable:!0,get:function(){return u[e]}})});var o=r(d[4]);Object.keys(o).forEach(function(e){'default'===e||Object.prototype.hasOwnProperty.call(_e,e)||Object.defineProperty(_e,e,{enumerable:!0,get:function(){return o[e]}})});var c,f=(c=o)&&c.__esModule?c:{default:c}},1133,[1134,1135,1154,1155,1140]);
 __d(function(g,_r,_i,a,m,_e,_d){"use strict";Object.defineProperty(_e,'__esModule',{value:!0}),_e.SvgAst=c,_e.SvgXml=l,_e.SvgUri=function(r){const{onError:o=i,uri:s,onLoad:c,fallback:u}=r,[f,p]=(0,t.useState)(null),[d,h]=(0,t.useState)(!1);if((0,t.useEffect)(()=>{s?(0,n.fetchText)(s).then(t=>{p(t),d&&h(!1),null==c||c()}).catch(t=>{o(t),h(!0)}):p(null)},[o,s,c]),d)return u??null;return e.createElement(l,{xml:f,override:r,fallback:u})},Object.defineProperty(_e,"SvgFromXml",{enumerable:!0,get:function(){return u}}),Object.defineProperty(_e,"SvgFromUri",{enumerable:!0,get:function(){return f}}),Object.defineProperty(_e,"camelCase",{enumerable:!0,get:function(){return d}}),_e.getStyle=h,_e.astToReact=x,_e.parse=j,Object.defineProperty(_e,"tags",{enumerable:!0,get:function(){return r.tags}});var t=_r(_d[0]),e=(function(t){if(t&&t.__esModule)return t;var e={};return t&&Object.keys(t).forEach(function(n){var r=Object.getOwnPropertyDescriptor(t,n);Object.defineProperty(e,n,r.get?r:{enumerable:!0,get:function(){return t[n]}})}),e.default=t,e})(t),n=_r(_d[1]),r=_r(_d[2]);function o(){return o=Object.assign?Object.assign.bind():function(t){for(var e=1;e<arguments.length;e++){var n=arguments[e];for(var r in n)({}).hasOwnProperty.call(n,r)&&(t[r]=n[r])}return t},o.apply(null,arguments)}function s(){return null}function c({ast:t,override:n}){if(!t)return null;const{props:s,children:c}=t,i=r.tags.svg;return e.createElement(i,o({},s,n),c)}const i=console.error.bind(console);function l(n){const{onError:r=i,xml:o,override:s,fallback:l}=n;try{const r=(0,t.useMemo)(()=>null!==o?j(o):null,[o]);return e.createElement(c,{ast:r,override:s||n})}catch(t){return r(t),l??null}}class u extends t.Component{state={ast:null};componentDidMount(){this.parse(this.props.xml)}componentDidUpdate(t){const{xml:e}=this.props;e!==t.xml&&this.parse(e)}parse(t){const{onError:e=i}=this.props;try{this.setState({ast:t?j(t):null})}catch(t){const n=t;e(Object.assign({},n,{message:`[RNSVG] Couldn't parse SVG, reason: ${n.message}`}))}}render(){const{props:t,state:{ast:n}}=this;return e.createElement(c,{ast:n,override:t.override||t})}}class f extends t.Component{state={xml:null};componentDidMount(){this.fetch(this.props.uri)}componentDidUpdate(t){const{uri:e}=this.props;e!==t.uri&&this.fetch(e)}async fetch(t){try{this.setState({xml:t?await(0,n.fetchText)(t):null})}catch(t){console.error(t)}}render(){const{props:t,state:{xml:n}}=this;return e.createElement(u,{xml:n,override:t,onError:t.onError})}}const p=(t,e)=>e.toUpperCase(),d=t=>t.replace(/[:-]([a-z])/g,p);function h(t){const e={},n=t.split(';').filter(t=>t.trim()),{length:r}=n;for(let t=0;t<r;t++){const r=n[t];if(0!==r.length){const t=r.split(':'),n=t[0],o=t[1];e[d(n.trim())]=o.trim()}}return e}function x(t,n){if('object'==typeof t){const{Tag:r,props:s,children:c}=t;return null!=s&&s.class&&(s.className=s.class,delete s.class),e.createElement(r,o({key:n},s),c.map(x))}return t}function b(t,e){let n='';for(;e--;)n+=t;return n}const y=t=>b('  ',t.length);function v(t,e){const n=t.split('\n'),r=n.length;let o=e,s=0;for(;s<r;s++){const{length:t}=n[s];if(!(o>=t))break;o-=t}const c=t.slice(0,e).replace(/^\t+/,y),i=/(^|\n).*$/.exec(c),l=i&&i[0]||'',u=t.slice(e),f=/.*(\n|$)/.exec(u);return{line:s,column:o,snippet:`${l}${f&&f[0]}\n${b(' ',l.length)}^`}}const E=/[a-zA-Z0-9:_-]/,O=/<!--/,S=/[\s\t\r\n]/,$=/['"]/;function j(t,e){const n=t.length;let o,c=null,i=function(){for(;T+1<n&&('<'!==t[T]||!E.test(t[T+1])&&!O.test(t.slice(T,T+4)));)T++;return p()},l=null;const u=[];function f(e){const{line:n,column:r,snippet:o}=v(t,T);throw new Error(`${e} (${n}:${r}). If this is valid SVG, it's probably a bug. Please raise an issue\n\n${o}`)}function p(){let e,r='';for(;T<n&&'<'!==(e=t[T]);)r+=e,T+=1;return/\S/.test(r)&&l.push(r),'<'===t[T]?b:p}function b(){const e=t[T];if('?'===e)return p;if('!'===e){const e=T+1;if('--'===t.slice(e,T+3))return y;const n=T+8;if('[CDATA['===t.slice(e,n))return j;if(/doctype/i.test(t.slice(e,n)))return p}if('/'===e)return P;const n=U(),i={},d={tag:n,props:i,children:[],parent:c,Tag:r.tags[n]||s};c?l.push(d):o=d,_(i);const{style:x}=i;'string'==typeof x&&(d.styles=x,i.style=h(x));let b=!1;return'/'===t[T]&&(T+=1,b=!0),'>'!==t[T]&&f('Expected >'),b||(c=d,({children:l}=d),u.push(d)),p}function y(){const e=t.indexOf('--\x3e',T);return~e||f('expected --\x3e'),T=e+2,p}function j(){const e=t.indexOf(']]>',T);return~e||f('expected ]]>'),l.push(t.slice(T+7,e)),T=e+2,p}function P(){const e=U();return e||f('Expected tag name'),c&&e!==c.tag&&f(`Expected closing tag </${e}> to match opening tag <${c.tag}>`),D(),'>'!==t[T]&&f('Expected >'),u.pop(),c=u[u.length-1],c&&({children:l}=c),p}function U(){let e,r='';for(;T<n&&E.test(e=t[T]);)r+=e,T+=1;return r}function _(e){for(;T<n;){if(!S.test(t[T]))return;D();const n=U();if(!n)return;let r=!0;D(),'='===t[T]&&(T+=1,D(),r=k(),'id'===n||isNaN(+r)||''===r.trim()||(r=+r)),e[d(n)]=r}}function k(){return $.test(t[T])?C():w()}function w(){let e='';do{const n=t[T];if(' '===n||'>'===n||'/'===n)return e;e+=n,T+=1}while(T<n);return e}function C(){const e=t[T++];let r='',o=!1;for(;T<n;){const n=t[T++];if(n===e&&!o)return r;'\\'!==n||o||(o=!0),r+=o?`\\${n}`:n,o=!1}return r}function D(){for(;T<n&&S.test(t[T]);)T+=1}let T=0;for(;T<n;)i||f('Unexpected character'),i=i(),T+=1;if(i!==p&&f('Unexpected end of input'),o){const t=(e?e(o):o)||o,n=t.children.map(x),r=t;return r.children=n,r}return null}},1134,[33,1135,1139]);
@@ -201,7 +201,7 @@ __d(function(g,r,i,a,m,e,d){"use strict";function o(o,n){throw Error(`[react-nat
 __d(function(g,r,i,a,m,e,d){},1155,[]);
 __d(function(g,r,i,a,m,e,d){"use strict";Object.defineProperty(e,'__esModule',{value:!0}),Object.defineProperty(e,"mergeClasses",{enumerable:!0,get:function(){return t}});
 /**
-   * @license lucide-react-native v1.50.0 - ISC
+   * @license lucide-react-native v1.52.0 - ISC
    *
    * This source code is licensed under the ISC license.
    * See the LICENSE file in the root directory of this source tree.
@@ -209,7 +209,7 @@ __d(function(g,r,i,a,m,e,d){"use strict";Object.defineProperty(e,'__esModule',{v
 const t=(...t)=>t.filter((t,n,o)=>Boolean(t)&&""!==t.trim()&&o.indexOf(t)===n).join(" ").trim()},1156,[]);
 __d(function(g,r,i,a,m,_e,d){"use strict";Object.defineProperty(_e,'__esModule',{value:!0}),Object.defineProperty(_e,"default",{enumerable:!0,get:function(){return n}});var e,t=r(d[0]),s=(e=t)&&e.__esModule?e:{default:e};
 /**
-   * @license lucide-react-native v1.50.0 - ISC
+   * @license lucide-react-native v1.52.0 - ISC
    *
    * This source code is licensed under the ISC license.
    * See the LICENSE file in the root directory of this source tree.
@@ -217,7 +217,7 @@ __d(function(g,r,i,a,m,_e,d){"use strict";Object.defineProperty(_e,'__esModule',
 function n(e,t={}){return(0,s.default)(e,Object.assign({},t,{attributeNames:Object.assign({},t.attributeNames,{class:"className","stroke-width":"strokeWidth","stroke-linecap":"strokeLinecap","stroke-linejoin":"strokeLinejoin","vector-effect":"vectorEffect"})}))}},1157,[1158]);
 __d(function(g,r,i,a,m,_e,d){"use strict";Object.defineProperty(_e,'__esModule',{value:!0}),Object.defineProperty(_e,"default",{enumerable:!0,get:function(){return l}});var e,t=r(d[0]),s=(e=t)&&e.__esModule?e:{default:e},n=r(d[1]);
 /**
-   * @license lucide-react-native v1.50.0 - ISC
+   * @license lucide-react-native v1.52.0 - ISC
    *
    * This source code is licensed under the ISC license.
    * See the LICENSE file in the root directory of this source tree.
@@ -225,7 +225,7 @@ __d(function(g,r,i,a,m,_e,d){"use strict";Object.defineProperty(_e,'__esModule',
 function u(e){return null!=e}function l(e,t={}){const l=t.attributeNames??{},o=e=>l[e]??e,h=e.size??e.width??s.default.width,c=e.size??e.height??s.default.height,f=e.aliases?.filter(e=>"string"==typeof e&&""!==e.trim()).map(e=>`lucide-${e}`)??[],w=[...e.name?[`lucide-${e.name}`]:[],...f],b=t.className?.split(" ").filter(Boolean)??[],k=!1===t.includeDefaultClasses?(0,n.mergeClasses)(...b):(0,n.mergeClasses)("lucide",...w,...b),z=t.absoluteStrokeWidth?Number(t.strokeWidth??s.default["stroke-width"])*Number(e.size??e.width??s.default.width)/Number(t.size??t.width??s.default.width):t.strokeWidth??s.default["stroke-width"];return["svg",Object.assign({},Object.entries(s.default).reduce((e,[t,s])=>(e[o(t)]=s,e),{}),"color"in t&&t.color&&{[o("stroke")]:t.color},"size"in t&&u(t.size)&&{[o("width")]:t.size,[o("height")]:t.size},"width"in t&&u(t.width)&&{[o("width")]:t.width},"height"in t&&u(t.height)&&{[o("height")]:t.height},{[o("stroke-width")]:z},k&&{[o("class")]:k},{[o("viewBox")]:`0 0 ${h} ${c}`},!1===t.hasA11yProp?{[o("aria-hidden")]:"true"}:{},"attributes"in t&&t.attributes),e.node.map(e=>{const[s,n,u]=e,l=t.nonScalingStroke?Object.assign({[o("vector-effect")]:"non-scaling-stroke"},n):n;return u?[s,l,u]:[s,l]})]}},1158,[1159,1156]);
 __d(function(g,r,i,a,m,e,d){"use strict";Object.defineProperty(e,'__esModule',{value:!0}),Object.defineProperty(e,"default",{enumerable:!0,get:function(){return t}});
 /**
-   * @license lucide-react-native v1.50.0 - ISC
+   * @license lucide-react-native v1.52.0 - ISC
    *
    * This source code is licensed under the ISC license.
    * See the LICENSE file in the root directory of this source tree.
@@ -233,7 +233,7 @@ __d(function(g,r,i,a,m,e,d){"use strict";Object.defineProperty(e,'__esModule',{v
 const t={xmlns:"http://www.w3.org/2000/svg",width:24,height:24,viewBox:"0 0 24 24",fill:"none",stroke:"currentColor","stroke-width":2,"stroke-linecap":"round","stroke-linejoin":"round"}},1159,[]);
 __d(function(g,r,i,a,m,e,d){"use strict";Object.defineProperty(e,'__esModule',{value:!0}),Object.defineProperty(e,"hasA11yProp",{enumerable:!0,get:function(){return t}});
 /**
-   * @license lucide-react-native v1.50.0 - ISC
+   * @license lucide-react-native v1.52.0 - ISC
    *
    * This source code is licensed under the ISC license.
    * See the LICENSE file in the root directory of this source tree.
@@ -241,7 +241,7 @@ __d(function(g,r,i,a,m,e,d){"use strict";Object.defineProperty(e,'__esModule',{v
 const t=t=>{for(const n in t)if(n.startsWith("aria-")||"role"===n||"title"===n)return!0;return!1}},1160,[]);
 __d(function(g,r,i,a,m,_e,d){"use strict";Object.defineProperty(_e,'__esModule',{value:!0}),Object.defineProperty(_e,"childDefaultAttributes",{enumerable:!0,get:function(){return l}});var e,t=r(d[0]),o=(e=t)&&e.__esModule?e:{default:e};
 /**
-   * @license lucide-react-native v1.50.0 - ISC
+   * @license lucide-react-native v1.52.0 - ISC
    *
    * This source code is licensed under the ISC license.
    * See the LICENSE file in the root directory of this source tree.
@@ -249,7 +249,7 @@ __d(function(g,r,i,a,m,_e,d){"use strict";Object.defineProperty(_e,'__esModule',
 const l={fill:o.default.fill,stroke:o.default.stroke,strokeWidth:o.default.strokeWidth,strokeLinecap:o.default.strokeLinecap,strokeLinejoin:o.default.strokeLinejoin}},1161,[1162]);
 __d(function(g,r,i,a,m,e,d){"use strict";Object.defineProperty(e,'__esModule',{value:!0}),Object.defineProperty(e,"default",{enumerable:!0,get:function(){return t}});
 /**
-   * @license lucide-react-native v1.50.0 - ISC
+   * @license lucide-react-native v1.52.0 - ISC
    *
    * This source code is licensed under the ISC license.
    * See the LICENSE file in the root directory of this source tree.
@@ -257,7 +257,7 @@ __d(function(g,r,i,a,m,e,d){"use strict";Object.defineProperty(e,'__esModule',{v
 const t={fill:"none",stroke:"currentColor",strokeWidth:2,strokeLinecap:"round",strokeLinejoin:"round"}},1162,[]);
 __d(function(g,r,i,a,m,e,d){"use strict";Object.defineProperty(e,'__esModule',{value:!0}),Object.defineProperty(e,"LucideProvider",{enumerable:!0,get:function(){return n}}),Object.defineProperty(e,"useLucideContext",{enumerable:!0,get:function(){return c}});var t=r(d[0]);
 /**
-   * @license lucide-react-native v1.50.0 - ISC
+   * @license lucide-react-native v1.52.0 - ISC
    *
    * This source code is licensed under the ISC license.
    * See the LICENSE file in the root directory of this source tree.
